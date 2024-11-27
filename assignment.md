@@ -15,7 +15,21 @@ Question 2:
 Write ten (10) user stories for a book-borrowing website for a library. Write it in the format: `As a ____, I want to ____, so that _____`.
 
 ```
-Your answers here
+1. As a user, I want to have a book-borrowing website, so that I can reserve a book which I would like to borrow.
+
+2. As a user, I want to have a book-borrowing website, so that I can check the deadline to return the books which I have borrowed.
+
+3. As a user, I want to have a book-borrowing website, so that the first page which prompt me to enter my username and password to access the system.
+
+4. As a user, I want to have a book-borrowing website, so that the website have geographical positioning service which allows me to check the location of the nearest library to borrow the book I want.
+
+5. As a user, I want to have a book-borrowing website, so that I am able to renew my book when the date of return has expired.
+
+6. As a user, I want to have a book-borrowing website, so that I am able to access it not only from my laptop but also from my mobile phone.
+
+7. As a user, I want to have a book-borrowing website on a mobile app, so that I am able to borrow the book by using the scan feature to scan the qr code with my mobile camera.  
+
+
 ```
 
 Question 3: 
