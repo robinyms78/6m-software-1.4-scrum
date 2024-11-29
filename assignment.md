@@ -31,21 +31,21 @@ Write ten (10) user stories for a book-borrowing website for a library. Write it
 
 2. As a user, I want to have a dashboard on book-borrowing website, so that I can check the deadline to return the books which I have borrowed.
 
-3. As a user, I want to have a login function on book-borrowing website, so that the first page which prompt me to enter my username and password to access the system.
+3. As a user, I want to have a login function on book-borrowing website, so that the web page can prompt me to enter my username and password to access the system.
 
 4. As a user, I want to have a geographical information service on the book-borrowing website, so that I can check the location of the nearest library to borrow the book I want.
 
-5. As a user, I want to have a function on a book-borrowing website, so that I am able to renew my book when the date of return has expired.
+5. As a user, I want to have a function on a book-borrowing website, so that I am able to renew my book when I reached the date of return.
 
-6. As a user, I want to have a mobile app version of the book-borrowing website, so that I am able to access it not only from my laptop but also from my mobile phone where ever I go.
+6. As a user, I want to have a mobile app sign-in function on the book-borrowing website, so that I am able to sign in using scan QR with my library mobile app without using my username and password.
 
-7. As a user, I want to have a book-borrowing function on a mobile app, so that I am able to borrow the book by scan the qr code using my mobile phone camera.
+7. As a user, I want to have a sign-in function using Singpass on the book-borrowing website, so that I am able to login to the system using my Singpass username and password.
 
 8. As a user, I want to have a search engine on a book-borrowing website, so that I can search for the book title I want.
 
-9. As a user, I want to have an alert function on a book-borrowing website, so that I can receive an email notification when the date of return of my book I have borrowed is near.
+9. As a user, I want to have an alert function on a book-borrowing website, so that I can receive an email alert notification 2 days before the date of return of the book I have borrowed.
 
-10. As a user, I want to have a recommendation system on a book-borrowing website, so that I can search for book titles based on my personal interest.
+10. As a user, I want to have a recommendation system on a book-borrowing website, so that the system can recommend suitable book titles for me based on my personal interest.
 
 ```
 
@@ -67,13 +67,12 @@ Define [Acceptance Criteria](https://resources.scrumalliance.org/Article/need-kn
    And send me an alert that the book cannot be reserved when someone has already reserved the book. 
 
 4. Given that I am a member of the library,
-   When I select the "Turn on my mobile camera" button on the book-borrowing mobile app And scan the QR code of the book I want to borrow,
-   Then I the book-borrowing mobile app will alert me that my borrow is successful, 
-   And alert me when my borrow is unsuccessful with an error message.
+   When I access the login page of the book-borrowing website And scan the QR code using my library mobile app,
+   Then I am able to login to the book-borrowing website And send me an alert me if my login was unsuccessful.
 
 5. Given that I am a member of the library,
-   When I am reaching two days before the date of return of my book,
-   Then the book-borrowing website can send me an email alert notification to remind me to return the book I have borrowed.
+   When I reached two days before the date of return of my book,
+   Then the book-borrowing website will send me an email alert notification to remind me to return the book I have borrowed.
 ```
 
 ### Submission
