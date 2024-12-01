@@ -62,13 +62,13 @@ Define [Acceptance Criteria](https://resources.scrumalliance.org/Article/need-kn
 2. (User story 3)
    Given that I am a user of the library,
    When I select the "Username" and "Password" from the book-borrowing website,
-   Then I am able to login to the website successfully,
+   Then I am able to sign in to the website successfully,
    And the website will prompt me with an error message when my username and password is correct.
 
 3. (User story 6)
    Given that I am a user of the library,
    When I scan the QR code on the book-borrowing website using my mobile app,
-   Then I am able to sign in to the book-borrowing website,
+   Then I am able to sign in to the book-borrowing website successfully,
    And the website will prompt me with an error message when the sign in was unsuccessful.
 
 4. (User story 8)
