@@ -19,7 +19,7 @@ Seventh, scrum ensures that the team pay attention to technical details and desi
 Eighth, scrum ensures simplicity and avoid over-engineering which reduces unnecessary manpower cost.
 Ninth, scrum encourages self-organization where all team members have the decision-making power, take ownership, communicate regularly with other team members, and share ideas that deliver quality products.
 Tenth, scrum provides regular reflections during sprint retrospective on how to become more effective through self-improvement, process improvement, advancing skills, and techniques which help team members to work more efficiently.
-All the above principles help to improve productivity.
+All the above principles in scrum helps to improve their productivity.
 
 ```
 
@@ -27,25 +27,25 @@ Question 2:
 Write ten (10) user stories for a book-borrowing website for a library. Write it in the format: `As a ____, I want to ____, so that _____`.
 
 ```
-1. As a user, I want to borrow book title on a book-borrowing website, so that the book can be delivered to my house without visiting the library.
+1. As a user, I want to have a book delivery service on a book-borrowing website, so that the book can be delivered to my house without visiting the library.
 
 2. As a user, I want to be able to check the date due of my books borrowed on a book-borrowing website, so that I can return my books on time.
 
 3. As a user, I want to be able to sign in to a book-borrowing website, so that I can borrow books from the website without visiting the library.
 
-4. As a user, I want to have a geographical information service on the book-borrowing website, so that I can check the location of the nearest library to borrow the book I want.
+4. As a user, I want to have a geographical information service on the book-borrowing website, so that I can visit the nearest library to check the content of the book and make a decision whether to borrow the book or not.
 
 5. As a user, I want to be able to renew my book on a book-borrowing website, so that I can renew my book when upon reaching the date due.
 
 6. As a user, I want to have an option to sign in to the book-borrowing website using my mobile phone, so that I am still able to sign in to the website when I forget my username and password.
 
-7. As a user, I want to have an option to sign in to the book-borrowing website using my singpass, so that I am still able to sign in to the website when I forget my username and password.
+7. As a user, I want to have an option to sign in to the book-borrowing website using my Singpass, so that I am still able to sign in to the website when I forget my username and password.
 
-8. As a user, I want to be able to search for the book title I want on a book-borrowing website, so that I am able find the book title I want to borrow.
+8. As a user, I want to be able to search for the book title I want on a book-borrowing website, so that I am able to check whether the book is available or not.
 
 9. As a user, I want to be able to receive an email notification upon reaching the date due of my book from a book-borrowing website, so that I do not miss the date due of the book I have borrowed.
 
-10. As a user, I want to be able to receive book recommendations from a book-borrowing website, so that I can borrow books based on my personal interest and genre.
+10. As a user, I want to be able to receive book titles recommendations from a book-borrowing website, so that I can borrow books based on my personal interest and genre.
 
 ```
 
@@ -55,23 +55,21 @@ Define [Acceptance Criteria](https://resources.scrumalliance.org/Article/need-kn
 ```
 1. (User story 1)
    Given that I am a user of the library,
-   When I signed in to the book-borrowing website,
-   And found the book title which I want to borrow,
-   And select the "Borrow Book" button on the book-borrowing website,
+   When I select the "Borrow Book" button on the book-borrowing website,
    Then I am able to receive a confirmation message that I have borrowed the book successfully, 
-   And notify me on the expected date of book delivery to my house. 
+   And the website will notify me on the expected date of book delivery to my house. 
 
 2. (User story 3)
    Given that I am a user of the library,
    When I select the "Username" and "Password" from the book-borrowing website,
    Then I am able to login to the website successfully,
-   And prompt me with an error message when my username and password is correct.
+   And the website will prompt me with an error message when my username and password is correct.
 
 3. (User story 6)
    Given that I am a user of the library,
    When I scan the QR code on the book-borrowing website using my mobile app,
    Then I am able to sign in to the book-borrowing website,
-   And prompt me with an error message when I am unsuccessful.
+   And the website will prompt me with an error message when the sign in was unsuccessful.
 
 4. (User story 8)
    Given that I am a user of the library,
